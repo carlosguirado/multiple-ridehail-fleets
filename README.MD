@@ -1,0 +1,1 @@
+This repository contains all the data and code to replicate the charts in 'Fragmentation in Evolving Ridehail Markets: Quantifying Impacts on Efficiency, Equity, and Energy Use'.

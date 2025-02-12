@@ -1,0 +1,6 @@
+,Pooled (size: 1),Pooled (size: 2),Solo (size: 1),Solo (size: 2)
+Planned mode share,-9.0,-6.0,8.0,4.0
+Executed mode share,-7.0,-5.0,-5.0,-4.0
+Executed rate,3.0,2.0,-12.0,-8.0
+Replanned rate,-0.0,-0.0,4.0,15.0
+Average wait time of executed trips,-5.0,-5.0,-0.0,2.0

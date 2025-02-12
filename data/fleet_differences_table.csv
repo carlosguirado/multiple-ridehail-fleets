@@ -1,0 +1,16 @@
+Unnamed: 0,"% change 5fleet vs 2fleet, size: 1",size: 1.6,size: 2,size: 4,size: 10
+Trip Est Ride Hail,8.3,4.6,4.0,3.0,0.2
+Trip Est Ride Hail Pooled,-9.4,-7.7,-6.3,-6.5,-2.2
+Trip Mode Ride Hail,1.7,0.0,1.2,1.6,-0.1
+Trip Mode Ride Hail Pooled,-8.5,-6.4,-5.5,-6.0,-2.1
+Trip Replan Ride Hail,12.4,16.2,19.4,19.4,26.7
+Trip Replan Ride Hail Pooled,-9.6,-9.5,-6.6,-6.5,-2.8
+Trip Exec Ride Hail,-5.1,-5.8,-3.9,-0.4,-1.0
+Trip Exec Ride Hail Pooled,-6.9,-3.6,-4.7,-5.8,-2.0
+AV Waiting Time RH,-0.8,-0.1,0.8,-3.8,3.6
+AV Waiting Time RH Pooled,-5.3,-4.7,-5.0,-9.4,-3.2
+AV Waiting Time RH Single,-0.0,0.8,2.2,-2.1,5.8
+Pooled Replan Rate,-0.2,-1.9,-0.3,-0.0,-0.5
+Pooled Exec Rate,2.8,4.4,1.7,0.7,0.3
+Solo Replan Rate,-36.3,-24.6,-5.9,35.1,29778.2
+Solo Exec Rate,-51.0,-48.2,-37.3,-20.4,-3.6

@@ -171,18 +171,13 @@ def print_results(results):
 
 def main():
     # Read the data
-    data = pd.read_csv('STs-30pct_final.csv', index_col=0)
+    data = pd.read_csv('data/STs-30pct_final.csv', index_col=0)
     
     # Analyze impacts
     results = analyze_fleet_impacts(data)
     
     # Print results
     print_results(results)
-    
-    # Create and save the wait time plot
-    fig_wait_time = create_wait_time_plot(data)
-    fig_wait_time.savefig('wait_time_plot.pdf', bbox_inches='tight', format='pdf')
-    plt.close(fig_wait_time)
 
 if __name__ == "__main__":
     main()

@@ -189,18 +189,18 @@ def create_mode_share_plot(df):
 
 if __name__ == "__main__":
     # Read the summary subset table
-    df_summary = pd.read_csv('summary_subset_table.csv', index_col=0)
+    df_summary = pd.read_csv('data/summary_subset_table.csv', index_col=0)
     
     # Create and save the ridehail plots
     fig_ridehail = create_ridehail_plots(df_summary)
-    fig_ridehail.savefig('combined_plots_enhanced.pdf', bbox_inches='tight', format='pdf')
-    fig_ridehail.savefig('combined_plots_enhanced.eps', bbox_inches='tight', format='eps')
+    fig_ridehail.savefig('outputs/combined_plots_enhanced.pdf', bbox_inches='tight', format='pdf')
+    fig_ridehail.savefig('outputs/combined_plots_enhanced.eps', bbox_inches='tight', format='eps')
     plt.close(fig_ridehail)
     
     # Read the price comparison table for mode share plot
-    df_price_comparison = pd.read_csv('price_comparison_table.csv', index_col=0)
+    df_price_comparison = pd.read_csv('data/price_comparison_table.csv', index_col=0)
     
     # Create and save the mode share plot
     fig_mode_share = create_mode_share_plot(df_price_comparison)
-    fig_mode_share.savefig('mode_shares_by_fleet_size.eps', bbox_inches='tight', format='eps')
+    fig_mode_share.savefig('outputs/mode_shares_by_fleet_size.eps', bbox_inches='tight', format='eps')
     plt.close(fig_mode_share)

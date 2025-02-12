@@ -157,15 +157,15 @@ def save_combined_plot(df_joint, constant_price):
     
     # Create and save combined plot
     combined_fig = create_combined_plot(df_joint, constant_price_prepared)
-    combined_fig.savefig('combined_plots_enhanced.eps', 
+    combined_fig.savefig('outputs/combined_plots_enhanced.eps', 
                         bbox_inches='tight', 
                         dpi=300)
     plt.close(combined_fig)
 
 if __name__ == "__main__":
     # Load data
-    df_joint = pd.read_csv('df_joint.csv')
-    constant_price = pd.read_csv('constant_price.csv')
+    df_joint = pd.read_csv('data/df_joint.csv')
+    constant_price = pd.read_csv('data/constant_price.csv')
     
     # Create and save combined plot
     save_combined_plot(df_joint, constant_price)
